@@ -1,6 +1,6 @@
 import sys
 import logging
-
+from src.logger import logging
 
 def error_message_detail(error,error_detail:sys):
     #in which file, in which line am i getting the exception will all be stored in exc_tb

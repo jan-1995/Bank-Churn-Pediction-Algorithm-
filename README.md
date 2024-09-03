@@ -30,7 +30,7 @@ The project is organized as follows:
 
 The project is organized as follows:
 
-'''bash
+
 ├── notebooks
 │   ├── 1. EDA STUDENT PERFORMANCE.ipynb
 │   └── 2. MODEL TRAINING.ipynb
@@ -51,7 +51,7 @@ The project is organized as follows:
 ├── .gitignore
 └── README.md
 
-'''bash
+
 
 ## Installation
 

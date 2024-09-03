@@ -26,8 +26,20 @@ Customer churn refers to the loss of clients or customers. For banks, understand
 
 The project is organized as follows:
 
-├── app.py # Main application script ├── data_ingestion.py # Script for data ingestion ├── data_transformation.py # Script for data transformation ├── model_trainer.py # Script for training models ├── predict_pipeline.py # Pipeline for making predictions ├── utils.py # Utility functions ├── exception.py # Custom exception handling ├── logger.py # Logging setup ├── model.pkl # Trained machine learning model ├── preprocessor.pkl # Data preprocessor object ├── requirements.txt # Python dependencies ├── setup.py # Setup file for packaging ├── .gitignore # Git ignore file └── README.md # Project README file
-
+- `app.py`: Main application script
+- `data_ingestion.py`: Script for data ingestion
+- `data_transformation.py`: Script for data transformation
+- `model_trainer.py`: Script for training models
+- `predict_pipeline.py`: Pipeline for making predictions
+- `utils.py`: Utility functions
+- `exception.py`: Custom exception handling
+- `logger.py`: Logging setup
+- `model.pkl`: Trained machine learning model
+- `preprocessor.pkl`: Data preprocessor object
+- `requirements.txt`: Python dependencies
+- `setup.py`: Setup file for packaging
+- `.gitignore`: Git ignore file
+- `README.md`: Project README file
 
 ## Installation
 
@@ -54,9 +66,3 @@ To run the project, use the following command:
 
 ```bash
 python app.py
-
-This will start the application, which allows you to input customer data and get predictions on whether a customer is likely to churn.
-
-
-
-

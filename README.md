@@ -29,7 +29,7 @@ The project is organized as follows:
 - `app.py`: Main application script
 
 The project is organized as follows:
-
+'''bash
 ├── notebooks
 │   ├── 1. EDA STUDENT PERFORMANCE.ipynb
 │   └── 2. MODEL TRAINING.ipynb
@@ -49,6 +49,8 @@ The project is organized as follows:
 ├── setup.py
 ├── .gitignore
 └── README.md
+
+bash'''
 
 
 

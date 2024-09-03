@@ -77,3 +77,44 @@ To run the project, use the following command:
 
 ```bash
 python app.py
+
+This will start the application, which allows you to input customer data and get predictions on whether a customer is likely to churn.
+
+## Notebooks
+
+1. **EDA STUDENT PERFORMANCE.ipynb**: This notebook contains exploratory data analysis (EDA) and insights on the dataset.
+2. **MODEL TRAINING.ipynb**: This notebook is dedicated to model training, feature engineering, and model evaluation.
+
+## Scripts Overview
+
+- **app.py**: Main application script that ties together all components to run the churn prediction.
+- **data_ingestion.py**: Handles the ingestion of raw data into the pipeline.
+- **data_transformation.py**: Transforms and cleans the raw data, preparing it for model training.
+- **model_trainer.py**: Contains the logic for training different machine learning models.
+- **predict_pipeline.py**: Defines the pipeline for making predictions using the trained model.
+- **utils.py**: Provides utility functions that are used across different scripts.
+- **exception.py**: Custom exception classes for robust error handling.
+- **logger.py**: Sets up logging for monitoring and debugging purposes.
+
+## Model and Preprocessor
+
+- **model.pkl**: The serialized machine learning model trained to predict churn.
+- **preprocessor.pkl**: The serialized preprocessor for data transformation and feature engineering.
+
+## Contributing
+
+We welcome contributions! Please follow these steps:
+
+1. Fork the repository.
+2. Create a new branch: `git checkout -b feature-branch-name`.
+3. Commit your changes: `git commit -m 'Add some feature'`.
+4. Push to the branch: `git push origin feature-branch-name`.
+5. Open a pull request.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+
+
+

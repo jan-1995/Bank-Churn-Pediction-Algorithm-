@@ -51,7 +51,7 @@ The project is organized as follows:
 ├── .gitignore
 └── README.md
 
-
+'''bash
 
 ## Installation
 
